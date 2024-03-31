@@ -1,5 +1,5 @@
 public class Shark extends Predator{
     public String getName() {
-        return "Shark";
+        return this.name == null ? "Shark" : this.name;
     }
 }

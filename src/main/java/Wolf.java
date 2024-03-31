@@ -1,5 +1,5 @@
 public class Wolf extends Predator{
     public String getName() {
-        return "Wolf";
+        return this.name == null ? "Wolf" : this.name;
     }
 }

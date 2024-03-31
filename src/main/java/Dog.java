@@ -1,5 +1,5 @@
 public class Dog extends Pet{
     public String getName() {
-        return "Dog";
+        return this.name == null ? "Dog" : this.name;
     }
 }
