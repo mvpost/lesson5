@@ -23,7 +23,7 @@ public class Main {
         try {
             checkLeapYearAnimalImpl.checkLeapYearAnimal(wolf);
             checkLeapYearAnimalImpl.checkLeapYearAnimal(cat);
-            checkLeapYearAnimalImpl.checkLeapYearAnimal(shark);
+            //checkLeapYearAnimalImpl.checkLeapYearAnimal(shark);
             //checkLeapYearAnimalImpl.checkLeapYearAnimal(null);
         } catch (Exception e) {
             try {
