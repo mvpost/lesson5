@@ -1,9 +1,9 @@
 public class CheckLeapYearAnimalImpl {
-    void checkLeapYearAnimal(Animal animal) {
+    String checkLeapYearAnimal(Animal animal) {
         if (animal == null)
-            throw new InvalidAnimalException("На вход пришел некорректный объект животного");
+            throw new InvalidAnimalException("Invalid animal");
 
-        System.out.printf("%s рождён в %s год%n", animal.getName(),
-                animal.getBirthDate().isLeapYear() ? "високосный" : "невисокосный");
+        return (String.format("%s was born in a %s year", animal.getName(),
+                animal.getBirthDate().isLeapYear() ? "leap" : "non-leap"));
     }
 }
